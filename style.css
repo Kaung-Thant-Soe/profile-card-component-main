@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+/* Background image */
+.bg-top{
+    margin: -30% -23%;
+}
+.bg-bottom{
+    margin:-11% 46%;
+    
+}
+/* Profile Card */
+.card{
+    display: flex;
+    width:350px;
+    height: fit-content;
+    flex-direction: column;
+    border-radius: 13px;
+    margin: 8px 0 0 39%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* section 1 */
+.victor{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: -60px 0 0 118px;
+    position: relative;
+}
+/* section 2 */
+.data{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.add{
+    padding: 21px;
+}
+hr{
+    width: 100%;
+}
+.stat{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.align{
+    text-align: center;
+}
+.regular{
+    font-weight: lighter;
+    color: hsl(0, 0%, 59%);
+}
+
+@media only screen and (max-width: 375px){
+ 
+    body{
+        overflow: hidden;
+    }
+    .card{
+        width: 350px;
+        margin: 85px 13px;
+    }
+
+    .bg-top{
+        margin: -112% -212%;
+    }
+
+    .bg-bottom{
+        margin: -102% 52%;
+    }
+    .container{
+        overflow: hidden;
+    }
+}
